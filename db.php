@@ -70,5 +70,5 @@ $db_dischi = [
       "genre"=> "Pop",
       "year"=> "1987"
   ]
-]
+  ];
 ?>
