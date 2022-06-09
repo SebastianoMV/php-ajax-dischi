@@ -10,10 +10,20 @@
 <body>
 
   <div id="app">
+    <header>
+      <select v-model="genre" @change="getApi">
+        <option value=""></option>
+        <option value="Rock">Rock</option>
+        <option value="Pop">Pop</option>
+        <option value="Jazz">Jazz</option>
+        <option value="Metal">Metal</option>
+
+      </select>
+    </header>
     <div v-for="(disco, index) in dischi" :key="index">
       <img :src="disco.poster" alt="">      
       <h2>{{disco.title}}</h2>
-      <h4>&euro; {{disco.author}}</h4>
+      <h4>{{disco.author}}</h4>
       <hr>
     </div>
   </div>
