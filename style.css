@@ -3,6 +3,12 @@ body{
   background-color: black;
 }
 
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 main{
   display: flex;
   flex-wrap: wrap;
@@ -19,6 +25,7 @@ main{
   background-color: #282828;
   overflow-y: auto;
   border-radius: 5px;
+  padding: 10px;
 }
 
 img{
