@@ -1,0 +1,24 @@
+body{
+  color: white;
+  background-color: black;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.card{
+  display: inline-block;
+  width: 200px;
+  height: 350px;
+  margin: 10px;
+  background-color: #282828;
+  overflow-y: auto;
+  border-radius: 5px;
+}
+
+img{
+  width: 100%;
+}
