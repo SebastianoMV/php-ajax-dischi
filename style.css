@@ -19,7 +19,7 @@ main{
 
 .card{
   display: inline-block;
-  width: calc((100% - 120px) / 6);
+  width: calc((100% - 240px) / 6);
   height: 400px;
   margin: 10px;
   background-color: #282828;
